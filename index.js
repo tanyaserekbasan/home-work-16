@@ -28,8 +28,8 @@ const countryInput = prompt("Enter the country name: ");
 const city = cityInput.trim();
 const country = countryInput.trim();
 
-console.log(city.toLowerCase());
-console.log(country.toUpperCase());
+console.log(city.toUpperCase());
+console.log(country.toLowerCase());
 
 console.log(city.length);
 console.log(country.length);
